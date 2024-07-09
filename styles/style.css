@@ -134,6 +134,30 @@ h1{
 
 }
 
+.section1{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 #titulo{
     color: var(--c--color);
+}
+
+#img-sec1{
+    width: 30%;
+    height: 30%;
+}
+
+#contenido-sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto-sec1{
+    width: 30%;
 }
