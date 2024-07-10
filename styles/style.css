@@ -149,6 +149,9 @@ h1{
 #img-sec1{
     width: 30%;
     height: 30%;
+    position: relative;
+    left: 100px;
+    top: 20px;
 }
 
 #contenido-sec1{
@@ -160,4 +163,105 @@ h1{
 
 #texto-sec1{
     width: 30%;
+
+}
+
+#h1-sec1{
+    color: var(--c--color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#h2-sec1{
+    color: var(--c--color);
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#p{
+    padding: 5px 0px;
+}
+
+.section2{
+    height: 90vh;
+    background-color: var(--a--color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p-sec2{
+    width: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.containerSec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec2Tex1,#sec2Tex2,#sec2Tex3{
+    background-color: white;
+    border-radius: 3px 3px 3px 3px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#sec2Tex1{
+    position: relative;
+    right: 20px;
+}
+
+#sec2Tex3{
+    position: relative;
+    left: 20px;
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#boton{
+    background-color: var(--c--color);
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 3px 3px 3px 3px
+}
+
+#boton2{
+    background-color: var(--a--color);
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 3px 3px 3px 3px
+}
+
+footer{
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
