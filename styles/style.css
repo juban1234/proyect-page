@@ -376,4 +376,13 @@ footer{
         width: auto;
         flex-direction: column;
     }
+
+    #botones-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #bnt{
+        padding: 10px 10px;
+    }
 }
