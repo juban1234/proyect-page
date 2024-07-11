@@ -355,8 +355,26 @@ footer{
 }
 
 @media (max-width: 480px){
+    .header{
+        height: auto;
+    }
+
     h3{
         font-size: 15px;
         margin: 25px;
+    }
+
+    .barraSuperior {
+        height: 18vh;
+        flex-wrap: wrap;
+    }
+
+    #boton1{
+        width: auto;
+    }
+
+    #botones-header{
+        width: auto;
+        flex-direction: column;
     }
 }
