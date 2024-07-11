@@ -283,6 +283,11 @@ footer{
     .containerSec2 {
         flex-wrap: wrap;
     }
+
+    #img1{
+        left: 100px;
+        top: 150px;
+    }
 }
 
 @media (max-width: 748px){
