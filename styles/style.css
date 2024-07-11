@@ -364,7 +364,6 @@ footer{
     }
 
     .barraSuperior {
-        height: 18vh;
         flex-wrap: wrap;
     }
 
@@ -374,8 +373,17 @@ footer{
 
     #botones-header{
         width: auto;
+        padding: 3px 3px 3px 3px;
         flex-direction: column;
     }
+
+    #contenido-header{
+        padding: 7px;
+    }
+
+    #p-sec2{
+        width: 80%;
+    } 
 
     #botones-nav{
         width: 100%;
