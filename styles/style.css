@@ -29,7 +29,7 @@
     background-color: var(--a--color);
 }
 
-#bnt{
+.bnt{
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -49,7 +49,7 @@
 
 
 
-.header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-h1,h3{
+.h1,.h3{
     color: white;
     padding: 0px 0px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,7 +93,7 @@ h1{
     justify-content: space-around;
 }
 
-#boton1,#boton2{
+#boton1,.boton2{
     width: 100px;
     border-style: solid;
     border-color: white;
@@ -109,7 +109,7 @@ h1{
 
 }
 
-#boton2{
+.boton2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -143,6 +143,9 @@ h1{
 
 #titulo{
     color: var(--c--color);
+    position: relative;
+    left: 50px;
+    text-align: center
 }
 
 #img-sec1{
@@ -192,6 +195,21 @@ h1{
     align-items: center;
 }
 
+.section2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+.Ptitulo{
+    color: white;
+}
 #p-sec2{
     width: 50%;
     color: white;
@@ -224,6 +242,7 @@ h1{
 
 #tamañoTex{
     width: 50%;
+    padding: 5px;
 }
 
 #sec2Tex1{
@@ -254,7 +273,7 @@ h1{
     border-radius: 3px 3px 3px 3px
 }
 
-#boton2{
+.boton2{
     background-color: var(--a--color);
     color: white;
     height: 35px;
@@ -274,13 +293,42 @@ footer{
     align-items: center;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1284px) {
     #sec2Tex1 {
         right: 5px;
     }
 
     #sec2Tex3 {
         left: 5px;
+    }
+
+    #img1{
+        left: 100px;
+        top: 100px;
+    }
+
+    .Ptitulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+
+    #Pp{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+
+    #cont{
+        margin: 9px 0px;
+    }
+
+    #titulo{
+        left: 0px;
+    }
+
+    #imgen1, #imgen2, #imgen3{
+        left: 0px;
     }
 }
 
@@ -337,9 +385,6 @@ footer{
         flex-wrap: wrap;
     }
 
-    .section2{
-        height: auto;
-    }
 
     #contenido-sec1 {
         flex-direction: column;
@@ -368,13 +413,37 @@ footer{
 }
 
 @media (max-width: 480px){
-    .header{
+    header {
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    h3{
+
+    #div-1{
+        width: 100%;
+    }
+
+    #div-2{
+        display: none;
+    }
+
+    .Ptitulo{
+        font-size: 30px;
+        color: white;
+    }
+
+    #Pp{
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        margin: 25px;
+        color: white;
+    }
+
+    .h3{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 8px;
     }
 
     .barraSuperior {
@@ -395,8 +464,13 @@ footer{
         padding: 7px;
     }
 
+    .section2{
+        padding: 5px 0px;
+    }
+
     #p-sec2{
         width: 80%;
+        font-size: 15px;
     } 
 
     #botones-nav{
@@ -404,7 +478,7 @@ footer{
         display: flex;
         justify-content: space-around;
     }
-    #bnt{
+    .bnt{
         padding: 10px 10px;
     }
 }
