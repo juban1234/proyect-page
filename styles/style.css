@@ -217,6 +217,15 @@ h1{
     flex-wrap: wrap;
 }
 
+#imgen1,#imgen2,#imgen3{
+    position: relative;
+    right: 10px;
+}
+
+#tamañoTex{
+    width: 50%;
+}
+
 #sec2Tex1{
     position: relative;
     right: 20px;
