@@ -371,14 +371,19 @@ footer{
         top: 50px;
     }
 
-    #bnt {
+    .bnt {
         padding: 10px 3px;
-        font-size: 12px;
+        font-size: 15px;
     }
+
 
     #Download {
         padding: 10px 5px;
         font-size: 13px;
+    }
+
+    .section2-1{
+        padding: 10px;
     }
 
     .containerSec2 {
