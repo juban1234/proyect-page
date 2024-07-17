@@ -293,7 +293,7 @@ footer{
     align-items: center;
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 1279px) {
     #sec2Tex1 {
         right: 5px;
     }
